@@ -1,0 +1,60 @@
+/* style.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.logo-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.leaf,
+.text {
+  transition: all 0.4s ease-in-out;
+}
+
+.leaf1 {
+  transform-origin: center;
+}
+
+.leaf2 {
+  transform-origin: center;
+}
+
+.leaf3 {
+  transform-origin: center;
+}
+
+.leaf4 {
+  transform-origin: center;
+}
+
+.text {
+  opacity: 0;
+}
+
+.logo-container:hover .leaf1 {
+  transform: translateY(-20px) rotate(-15deg);
+}
+
+.logo-container:hover .leaf2 {
+  transform: translateY(-20px) rotate(15deg);
+}
+
+.logo-container:hover .leaf3 {
+  transform: translateY(20px) rotate(-15deg);
+}
+
+.logo-container:hover .leaf4 {
+  transform: translateY(20px) rotate(15deg);
+}
+
+.logo-container:hover .text {
+  opacity: 1;
+}
