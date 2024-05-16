@@ -1,2 +1,1 @@
-# Forestar
-Forestar logo animation
+# Experimental animating
