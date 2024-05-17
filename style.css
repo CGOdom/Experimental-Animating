@@ -5,18 +5,26 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #000000;
+  color: white;
 }
 
 .logo-container {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 666px;
+  height: 666px;
 }
 
 .leaf,
 .text {
   transition: all 0.4s ease-in-out;
+  color: white;
+}
+
+.text {
+  fill: #ffffff; /* Ensure text elements within SVG are white */
+  opacity: 0;
+  font-size: 15px;
 }
 
 .leaf1 {
