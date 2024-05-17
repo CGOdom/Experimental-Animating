@@ -7,12 +7,14 @@ body {
   margin: 0;
   background-color: #000000;
   color: white;
+  cursor: url('crystal.png'), auto; /* Set custom cursor */
 }
 
 .logo-container {
   position: relative;
   width: 666px;
   height: 666px;
+  cursor: url('crystal.png'), auto; /* Set custom cursor */
 }
 
 .leaf,
